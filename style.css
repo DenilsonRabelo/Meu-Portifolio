@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.barra {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    background-image: url(./imagens/background-img.png);
+    background-size: 40% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position-x: 110vh;
+    
+}
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo {
+    color: white;
+    font-size: 45px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.texto-logo {
+    color: crimson;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 15px;
+}
+
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover {
+    color: crimson;
+    transition: .3s;
+}
+
+.conteudo {
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h1 {
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 70px;
+}
+
+h3 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+h4 {
+    color: crimson;
+    font-size: 25;
+}
+
+
+.noticias a {
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: crimson;
+    color: white;
+    top: 200px;
+    right: 190px;
+    cursor: pointer;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+
+.noticias a:hover {
+    background-color: transparent;
+    border: 2px solid crimson;
+    transition: .2s;
+}
+
+.sobre {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.sobre img {
+    height: auto;
+    width: 430px;
+    border-radius: 20px;
+}
+
+
+
+
+.texto-sobre {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+.texto-sobre h2 {
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+
+.texto-sobre h5 {
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 24px;
+    text-transform: capitalize;
+}
+
+.texto-sobre p {
+    color: crimson;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+
+.servicos {
+    background-color: #101010;
+    width: 100%;
+    padding: 100px 0px ;
+}
+
+
+.titulo h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+.caixas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-width: 400px;
+}
+
+.carta {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background-color: #191919;
+    border-radius: 19px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+
+.carta i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: crimson;
+}
+
+.carta h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+
+.paragrafo p {
+    color: crimson;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+
+
+.contato {
+    width: 100%;
+    height: 290px;
+    background-color: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.contato p {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contato .botao {
+    background-color: crimson;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+
+
+.contato .botao:hover {
+    background-color: transparent;
+    border: 2px solid crimson;
+    cursor: pointer;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+footer p:nth-child(2) {
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center; 
+    line-height: 26px;
+}
+
+.social {
+    display: flex;
+}
+
+
+.social a{
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: crimson;
+  border-radius: 50px;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+
+.social a:hover {
+    transform: scale(1.3);
+    transition: .2s;
+}
