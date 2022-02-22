@@ -31,7 +31,7 @@
             <h1>Deni<span class="texto-logo">lson</span></h1>
             <h3>Sou um Desenvolverdor Web.</h3>
             <div class="noticias">
-                <a type="button" href="mailto:denilsonrabelo.dev@gmail.com">Envie seu email</a>
+                <a type="button" href="#contact">Envie seu email</a>
             </div>
 
         </div>
@@ -88,7 +88,7 @@
     </div>
 
 
-    <footer>
+    <div class="contato1">
         <p>Denilson Rabelo</p>
         <p>Me sigam nas redes sociais</p>
         <div class="social">
@@ -96,6 +96,20 @@
             <a target="_blank" href="https://github.com/DenilsonRabelo"><i class="fa-brands fa-github"></i></a>
             <a target="_blank" href="https://www.linkedin.com/in/denilsonrabelo99/"><i class="fa-brands fa-linkedin"></i></a>
         </div>
+    </div class="contato1">
+
+    <footer>
+        <h2 id="contact">Contato</h2>
+        <form action="https://formsubmit.co/denilsonrabelo.dev@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <label for="name">Nome :</label>
+            <input type="text" name="name" required>
+            <label for="email">E-mail :</label>
+            <input type="email" name="email" required>
+            <label for="message">Mensagem :</label>
+            <textarea name="message" placeholder="digite sua mensagem"></textarea>
+            <button type="submit">Enviar</button>
+       </form>
     </footer>
 </body>
 
